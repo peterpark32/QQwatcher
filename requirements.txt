@@ -1,0 +1,9 @@
+# 本项目实际用到的第三方库只有 Pillow 一个。
+# 其余全部是 Python 标准库：json os re sys shutil time socket threading queue
+# subprocess traceback base64 datetime http.server urllib.request
+#
+# 注意：tkinter（全屏弹窗）和 winsound（响铃）是 Windows 版 Python 自带的，
+# 不属于 pip 包，但**必须**在安装 Python 时勾选 tcl/tk 组件，否则弹窗会失败。
+# 可以用 python tools\preflight.py 一次性检查。
+
+Pillow>=10.0
